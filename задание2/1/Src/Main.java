@@ -6,7 +6,7 @@ public class Main {
         Student[] students = new Student[10];
 
         for (int i = 0; i < students.length; i++){
-            students[i] = new Student("Вася", "Пупкин", "ПКС-419", randomMark.nextInt(1, 6));
+            students[i] = new Student("Александр", "Егоров", "ПКС-419", randomMark.nextInt(1, 6));
         }
 
         for (int i = 0; i < students.length; i++){
